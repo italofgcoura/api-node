@@ -11,9 +11,9 @@ function conectar() {
   connection.connect(function (err) {
     if (err) return console.log(err);
     console.log("conectou!");
-    // createDataBase(connection);
+    createDataBase(connection);
     useDatabase(connection);
-    // createTable(connection);
+    createTable(connection);
     addRows(connection);
   });
 }

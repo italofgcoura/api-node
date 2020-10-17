@@ -7,7 +7,7 @@ const validations = require("./validations");
 const create = require("./create-table");
 // const { func } = require("joi");
 
-// create.conectar();
+create.conectar();
 
 //função abaixo serve apara permitir requisisões
 //resolve erro de cors
